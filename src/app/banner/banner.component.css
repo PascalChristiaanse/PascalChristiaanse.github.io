@@ -1,0 +1,28 @@
+.banner-section {
+    padding: 17em 0;
+    position: relative;
+    background-image: url(../../assets/images/banner-img.webp);
+    background-attachment: fixed;
+    color: white
+}
+
+.banner-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #242a35;
+    opacity: .7
+}
+
+.banner-section .h2 {
+    font-size: 40px;
+    font-weight: 900
+}
+
+@media (min-width:200px) and (max-width:768px) {
+    .banner-section {
+        padding: 8em 0
+    }
+}
